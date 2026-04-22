@@ -1,14 +1,14 @@
-# speckit-skills
+# claude-skills
 
-Claude Code skills for GitHub spec-kit 规格驱动开发工作流
+Claude Code 自定义技能仓库，提供多种开发辅助功能。
 
 ## 包含的 Skills
 
 ### speckit-assistant
 
-中文全流程辅助的 spec-kit 开发助手，覆盖：
+GitHub spec-kit 规格驱动开发中文全流程助手，覆盖：
 
-- 项目初始化
+- 项目初始化（specify init）
 - 宪法（Constitution）编写
 - 功能规格（Spec）创建
 - 需求澄清（Clarify）
@@ -20,13 +20,13 @@ Claude Code skills for GitHub spec-kit 规格驱动开发工作流
 
 ```bash
 # 克隆仓库
-git clone https://github.com/bGl5b25nanVu/speckit-skills.git
+git clone https://github.com/bGl5b25nanVu/claude-skills.git
 
 # 复制 skill 到项目
-cp -r speckit-assistant /path/to/your-project/.claude/skills/
+cp -r <skill-name> /path/to/your-project/.claude/skills/
 ```
 
-## 快速开始
+## 快速开始（spec-kit）
 
 1. **安装 spec-kit**
    ```bash
@@ -48,7 +48,7 @@ cp -r speckit-assistant /path/to/your-project/.claude/skills/
 
 ## 文档
 
-详见 [speckit-assistant/SKILL.md](speckit-assistant/SKILL.md)
+详见各 skill 目录下的 SKILL.md
 
 ## 许可证
 
